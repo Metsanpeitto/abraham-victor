@@ -15,7 +15,7 @@ body {
 form {
   display: grid;
   background: #1b1b32cc;
-  padding: 2.5rem 0.625rem;
+  padding: 2.5rem 2rem;
   border-radius: 0.25rem;
   width: 60%;
   margin-left: auto;
@@ -33,13 +33,18 @@ form {
   margin-bottom: -0.4rem;
 }
 input {
+  height: 2rem;
   border-radius: 5px;
+  padding: 0.2rem .4rem;
+  font-size: 1.2rem;
 }
 
 select {
   height: 2rem;
   border-radius: 5px;
   margin-bottom: 1rem;
+  padding: 0.2rem .4rem;
+  font-size: 1.2rem;
 }
 
 .text-area {
