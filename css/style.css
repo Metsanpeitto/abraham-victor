@@ -26,13 +26,13 @@ form {
   display: grid;
   text-align: left;
   gap: 1rem;
+  margin-top: 1rem;
 }
 .form-group label {
   margin-top: 1rem;
   margin-bottom: -0.4rem;
 }
 input {
-  height: 2rem;
   border-radius: 5px;
 }
 
@@ -40,4 +40,19 @@ select {
   height: 2rem;
   border-radius: 5px;
   margin-bottom: 1rem;
+}
+
+.text-area {
+  margin-top: 3rem;
+}
+
+button {
+  background: #2ab62a;
+  color: white;
+  height: 3rem;
+  border-color: transparent;
+  border-radius: 6px;
+  margin-top: 1rem;
+  font-size: 18px;
+  text-transform: capitalize;
 }

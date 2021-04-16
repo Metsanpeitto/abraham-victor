@@ -47,26 +47,76 @@
         </select>
       </div>
 
-      <div>
-        <input name="user-recommend" value="Definitely" type="checkbox" />
-        <input name="user-recommend" value="Maybe" type="checkbox" />
-        <input name="user-recommend" value="Not sure" type="checkbox" />
+      <div class="form-group">
+        <label id="number-label">
+          Would you recommend freeCodeCamp to a friend?</label
+        >
+        <label>
+          <input name="user-recommend" value="Definitely" type="checkbox" />
+          Definitely
+        </label>
+        <label>
+          <input name="user-recommend" value="Maybe" type="checkbox" />
+          Maybe
+        </label>
+        <label>
+          <input name="user-recommend" value="Not sure" type="checkbox" />
+          Not sure
+        </label>
       </div>
 
-      <div>
-        <input name="prefer" value="Front-end Projects" type="radio" />
-        <input name="prefer" value="Back-end Projects" type="radio" />
-        <input name="prefer" value="Data Visualization" type="radio" />
-        <input name="prefer" value="Challenges" type="radio" />
-        <input name="prefer" value="Open Source Community" type="radio" />
-        <input name="prefer" value="Gitter help rooms" type="radio" />
-        <input name="prefer" value="Videos" type="radio" />
-        <input name="prefer" value="City Meetups" type="radio" />
-        <input name="prefer" value="Wiki" type="radio" />
-        <input name="prefer" value="Forum" type="radio" />
-        <input name="prefer" value="Additional Courses" type="radio" />
+      <div class="form-group">
+        <label id="number-label">
+          What would you like to see improved? (Check all that apply)</label
+        >
+        <label>
+          <input name="prefer" value="Front-end Projects" type="radio" />
+          Front-end Projects
+        </label>
+        <label>
+          <input name="prefer" value="Back-end Projects" type="radio" />
+          Back-end Projects
+        </label>
+        <label>
+          <input name="prefer" value="Data Visualization" type="radio" />
+          Data Visualization
+        </label>
+        <label
+          ><input name="prefer" value="Challenges" type="radio" />Challenges
+        </label>
+        <label>
+          <input name="prefer" value="Open Source Community" type="radio" />Open
+          Source Community
+        </label>
+        <label>
+          <input name="prefer" value="Gitter help rooms" type="radio" />
+          Gitter Help Rooms
+        </label>
+        <label>
+          <input name="prefer" value="Videos" type="radio" />
+          Videos
+        </label>
+        <label>
+          <input name="prefer" value="City Meetups" type="radio" />
+          City Meetups
+        </label>
+        <label>
+          <input name="prefer" value="Wiki" type="radio" />
+          Wiki
+        </label>
+        <label>
+          <input name="prefer" value="Forum" type="radio" />
+          Forum
+        </label>
+        <label>
+          <input name="prefer" value="Additional Courses" type="radio" />
+          Additional Courses
+        </label>
       </div>
-      <textarea name="textarea" id="textarea" cols="30" rows="10"></textarea>
+      <div class="form-group text-area">
+        Any comments or suggestions?
+        <textarea name="textarea" id="textarea" cols="30" rows="10"></textarea>
+      </div>
       <button type="submit">submit</button>
     </form>
 
