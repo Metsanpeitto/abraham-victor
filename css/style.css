@@ -27,18 +27,17 @@ form {
   text-align: left;
   gap: 1rem;
 }
-.form-group label{
+.form-group label {
   margin-top: 1rem;
-  margin-bottom: -.4rem;
+  margin-bottom: -0.4rem;
 }
-input{
+input {
   height: 2rem;
   border-radius: 5px;
 }
 
-select{
+select {
   height: 2rem;
   border-radius: 5px;
-  margin-top: 1rem;
   margin-bottom: 1rem;
 }

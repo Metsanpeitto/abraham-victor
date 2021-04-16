@@ -1,65 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Hello world</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <title>Hello world</title>
-  <link rel="stylesheet" href="css/style.css" />
-</head>
+  <body>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 
-<body>
-  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    <h1 id="title">Hello World ! , We are Software developers</h1>
+    <p id="description">
+      Thank you for taking the time to help us improve the platform
+    </p>
 
-  <h1 id="title">Hello World ! , We are Software developers</h1>
-  <p id="description">
-    Thank you for taking the time to help us improve the platform
-  </p>
+    <form action="" id="survey-form">
+      <div class="form-group">
+        <label id="name-label">Name</label>
+        <input type="text" id="name" placeholder="name here" />
+      </div>
+      <div class="form-group">
+        <label id="email-label">Email</label>
+        <input type="email" id="email" placeholder="email" required />
+      </div>
 
-  <form action="" id="survey-form">
-    <div class="form-group">
-      <label id="name-label">Name</label>
-      <input type="text" id="name" placeholder="name here" />
-    </div>
-    <div class="form-group">
-      <label id="email-label">Email</label>
-      <input type="email" id="email" placeholder="email" required />
-    </div>
+      <div class="form-group">
+        <label id="number-label">Age</label>
+        <input
+          type="number"
+          id="number"
+          placeholder="age"
+          min="0"
+          max="9"
+          required
+        />
+      </div>
 
-    <div class="form-group">
-      <label id="number-label">Age</label>
-      <input type="number" id="number" placeholder="age" min="0" max="9" required />
-    </div>
+      <div class="form-group">
+        <label id="number-label">
+          Which option best describes your current role?</label
+        >
+        <select name="dropdown" id="dropdown">
+          <option value="man">man</option>
+          <option value="girl">girl</option>
+          <option value="boy">boy</option>
+        </select>
+      </div>
 
-    <select name="dropdown" id="dropdown">
-      <option value="man">man</option>
-      <option value="girl">girl</option>
-      <option value="boy">boy</option>
-    </select>
+      <div>
+        <input name="user-recommend" value="Definitely" type="checkbox" />
+        <input name="user-recommend" value="Maybe" type="checkbox" />
+        <input name="user-recommend" value="Not sure" type="checkbox" />
+      </div>
 
-    <div>
-      <input name="user-recommend" value="Definitely" type="checkbox" />
-      <input name="user-recommend" value="Maybe" type="checkbox" />
-      <input name="user-recommend" value="Not sure" type="checkbox" />
-    </div>
+      <div>
+        <input name="prefer" value="Front-end Projects" type="radio" />
+        <input name="prefer" value="Back-end Projects" type="radio" />
+        <input name="prefer" value="Data Visualization" type="radio" />
+        <input name="prefer" value="Challenges" type="radio" />
+        <input name="prefer" value="Open Source Community" type="radio" />
+        <input name="prefer" value="Gitter help rooms" type="radio" />
+        <input name="prefer" value="Videos" type="radio" />
+        <input name="prefer" value="City Meetups" type="radio" />
+        <input name="prefer" value="Wiki" type="radio" />
+        <input name="prefer" value="Forum" type="radio" />
+        <input name="prefer" value="Additional Courses" type="radio" />
+      </div>
+      <textarea name="textarea" id="textarea" cols="30" rows="10"></textarea>
+      <button type="submit">submit</button>
+    </form>
 
-    <div>
-      <input name="prefer" value="Front-end Projects" type="radio" />
-      <input name="prefer" value="Back-end Projects" type="radio" />
-      <input name="prefer" value="Data Visualization" type="radio" />
-      <input name="prefer" value="Challenges" type="radio" />
-      <input name="prefer" value="Open Source Community" type="radio" />
-      <input name="prefer" value="Gitter help rooms" type="radio" />
-      <input name="prefer" value="Videos" type="radio" />
-      <input name="prefer" value="City Meetups" type="radio" />
-      <input name="prefer" value="Wiki" type="radio" />
-      <input name="prefer" value="Forum" type="radio" />
-      <input name="prefer" value="Additional Courses" type="radio" />
-    </div>
-    <textarea name="textarea" id="textarea" cols="30" rows="10"></textarea>
-    <button type="submit">submit</button>
-  </form>
-
-  <!--
+    <!--
 
     Hello Camper!
 
@@ -71,7 +82,6 @@
     - The freeCodeCamp Team
 
     -->
-  <script src="js/index.js"></script>
-</body>
-
+    <script src="js/index.js"></script>
+  </body>
 </html>
